@@ -4,7 +4,8 @@
 
 ### About Me
 
-![profile pic](AssignmentOne/Images/linkedin%20pic.jpg)
+
+<img align="left" width="100" height="100" padding="10px" src="/AssignmentOne/Images/linkedin pic.jpg">
 
 Hi I'm Naomi :wave: I have always been someone who loves to learn 
 new skills. Whether it's learning new skills with media 
@@ -20,6 +21,13 @@ This then lead me to join [Code First Girls](https://codefirstgirls.com/) for my
 course in Web Development** and now onto the **Software Engineering Degree** :smiley:
 
 ### My previous coding experience:
+
+| Language   | Experience  | Length of Experience |
+|------------|-------------|----------------------|
+| HTML       | Intemediate | One Year             |
+| CSS        | Intemediate | One Year             |
+| JavaScript | Beginner    | 6 months             |
+| Python     | Beginner    | 2 months             |
 
 
 
