@@ -35,7 +35,8 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 
 <details>
 <summary>Pushing to GitHub</summary>
-Starting with checking the status I used the terminal to command git status:
+
+#### Starting with checking the status I used the terminal to command git status:
 <img width="500px" src="AssignmentOne/Screenshots/git status.png">
 
 ##### Next step was to command git add .
@@ -51,7 +52,7 @@ Starting with checking the status I used the terminal to command git status:
 <details>
 <summary>Creating Branches</summary>
 
-##### I created a branch called "test-1" inside a "feature" folder by right clicking on the main branch in PyCharm and selecting "New Branch from 'main'".
+##### I created a branch called "feature" and added a file by right clicking on the main branch in PyCharm and selecting "New Branch from 'main'".
 <img width="500px" src="/AssignmentOne/Screenshots/new branch created.png">
 </details>
 
