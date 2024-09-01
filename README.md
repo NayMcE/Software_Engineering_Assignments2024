@@ -37,22 +37,29 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 <summary>Pushing to GitHub</summary>
 
 - Starting with checking the status I used the terminal to command git status:
+
 <img width="500px" src="AssignmentOne/Screenshots/git status.png">
 
 - Next step was to command git add .
+
 <img width="500px" src="AssignmentOne/Screenshots/using git add.png">
 
-- Checking that the files are correct I then used git commit -m "" to commit these file changes: 
+- Checking that the files are correct I then used git commit -m "" to commit these file 
+changes using a clear and meaningful message: 
+
 <img width="500px" src="/AssignmentOne/Screenshots/git commit successful.png">
 
 - Next I used git push to push those changes to my remote GitHub:
+
 <img width="500px" src="AssignmentOne/Screenshots/push to main successful.png">
 </details>
 
 <details>
 <summary>Creating Branches</summary>
 
-- I created a branch called "feature" and added a file by right clicking on the main branch in PyCharm and selecting "New Branch from 'main'".
+- I created a branch called "test-1" in a folder called "feature" by right clicking on the 
+main branch in PyCharm and selecting "New Branch from 'main'", then naming the file "feature/test-1".
+
 <img width="500px" src="/AssignmentOne/Screenshots/new branch created.png">
 </details>
 
@@ -64,10 +71,11 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 <img width="500px" src="AssignmentOne/Screenshots/create new pull request.png">
 </details>
 
-- I created a requirements.txt file:
-- Using Tools, Sync Python Requests and creating
-a requirements.txt file which will list all packages or libraries needed to work on
-anything for this project. Mine is currently blank. 
- - 
+<details>
+<summary>Requirements.txt file</summary>
+
+- Using Tools, Sync Python Requests and creating a requirements.txt file which will list 
+all packages or libraries needed to work on anything for this project. Mine is currently blank. 
+</details>
 
 Check out my [LinkedIn Page](https://www.linkedin.com/in/naomi-mcewan-90900396/)
