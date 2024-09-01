@@ -31,10 +31,10 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 
 ### Getting to know GitHub:
 #### After creating my GitHub account I started in PyCharm to link my remote repository with my local. 
-#### Once creating some content I needed to push this to GitHub and these are the steps I took:
+
 
 <details>
-<summary>Terminal Commands</summary>
+<summary>Pushing to GitHub</summary>
 Starting with checking the status I used the terminal to command git status:
 <img width="500px" src="AssignmentOne/Screenshots/git status.png">
 
@@ -48,10 +48,12 @@ Starting with checking the status I used the terminal to command git status:
 <img width="500px" src="AssignmentOne/Screenshots/push to main successful.png">
 </details>
 
-- I then learnt how to create branches so that I could work seperately from the main file:
+<details>
+<summary>Creating branches</summary>
 
 ##### I created a branch called "test-1" inside a "feature" folder by right clicking on the main branch in PyCharm and selecting "New Branch from 'main'".
 <img width="500px" src="/AssignmentOne/Screenshots/new branch created.png">
+</details>
 
 - Here are the steps I took to create a pull request to merge my newly created branch with the main branch:
 
