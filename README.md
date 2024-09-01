@@ -36,35 +36,35 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 <details>
 <summary>Pushing to GitHub</summary>
 
-#### Starting with checking the status I used the terminal to command git status:
+- Starting with checking the status I used the terminal to command git status:
 <img width="500px" src="AssignmentOne/Screenshots/git status.png">
 
-##### Next step was to command git add .
+- Next step was to command git add .
 <img width="500px" src="AssignmentOne/Screenshots/using git add.png">
 
-##### Checking that the files are correct I then used git commit -m "" to commit these file changes: 
+- Checking that the files are correct I then used git commit -m "" to commit these file changes: 
 <img width="500px" src="/AssignmentOne/Screenshots/git commit successful.png">
 
-##### Next I used git push to push those changes to my remote GitHub:
+- Next I used git push to push those changes to my remote GitHub:
 <img width="500px" src="AssignmentOne/Screenshots/push to main successful.png">
 </details>
 
 <details>
 <summary>Creating Branches</summary>
 
-##### I created a branch called "feature" and added a file by right clicking on the main branch in PyCharm and selecting "New Branch from 'main'".
+- I created a branch called "feature" and added a file by right clicking on the main branch in PyCharm and selecting "New Branch from 'main'".
 <img width="500px" src="/AssignmentOne/Screenshots/new branch created.png">
 </details>
 
 <details>
 <summary>Creating a Pull Request</summary>
 
-##### In GitHub I clicked on Pull Request and then New Pull Request, checking at this stage that the correct branches are selected to merge into main.
+- In GitHub I clicked on Pull Request and then New Pull Request, checking at this stage that the correct branches are selected to merge into main.
 
 <img width="500px" src="AssignmentOne/Screenshots/create new pull request.png">
 </details>
 
-##### I created a requirements.txt file:
+- I created a requirements.txt file:
 - Using Tools, Sync Python Requests and creating
 a requirements.txt file which will list all packages or libraries needed to work on
 anything for this project. Mine is currently blank. 
