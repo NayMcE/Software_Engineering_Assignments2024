@@ -49,17 +49,19 @@ Starting with checking the status I used the terminal to command git status:
 </details>
 
 <details>
-<summary>Creating branches</summary>
+<summary>Creating Branches</summary>
 
 ##### I created a branch called "test-1" inside a "feature" folder by right clicking on the main branch in PyCharm and selecting "New Branch from 'main'".
 <img width="500px" src="/AssignmentOne/Screenshots/new branch created.png">
 </details>
 
-- Here are the steps I took to create a pull request to merge my newly created branch with the main branch:
+<details>
+<summary>Creating a Pull Request</summary>
 
 ##### In GitHub I clicked on Pull Request and then New Pull Request, checking at this stage that the correct branches are selected to merge into main.
 
 <img width="500px" src="AssignmentOne/Screenshots/create new pull request.png">
+</details>
 
 ##### I created a requirements.txt file:
 - Using Tools, Sync Python Requests and creating
