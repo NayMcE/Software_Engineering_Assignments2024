@@ -37,7 +37,17 @@ status I used the terminal to command git status:
 <img width="500px" src="AssignmentOne/Screenshots/git status.png">
  - Next step was to command git add .
 <img width="500px" src="AssignmentOne/Screenshots/using git add.png">
- 
+ - Checking that the files are correct I then used git commit -m "" to commit these file
+changes: 
+<img width="500px" src="/AssignmentOne/Screenshots/git commit successful.png">
+ - Next I used git push to push those changes to my remote GitHub:
+<img width="500px" src="AssignmentOne/Screenshots/push to main successful.png">
+ - I then learnt how to create branches so that I could work seperately from the main file
+to ensure no massive changes were being made to the main branch. I created a seperate
+branch called "test-1" inside a "feature" folder by right clicking on the main branch in PyCharm and selecting 
+"New Branch from 'main'".
+<img width="500px" src="/AssignmentOne/Screenshots/new branch created.png">
+
  - I created a requirements.txt file by using Tools, Sync Python Requests and creating
 a requirements.txt file which will list all packages or libraries needed to work on
 anything for this project. Mine is currently blank. 
