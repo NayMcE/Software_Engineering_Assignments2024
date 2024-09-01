@@ -30,11 +30,12 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 
 
 ### Getting to know GitHub:
- - After creating my GitHub account I started in PyCharm to link my remote repository
-with my local. 
- - Once creating some content I needed to push this to GitHub and these are the steps I took:
+#### After creating my GitHub account I started in PyCharm to link my remote repository with my local. 
+#### Once creating some content I needed to push this to GitHub and these are the steps I took:
 
-##### Starting with checking the status I used the terminal to command git status:
+<details>
+<summary>Terminal Commands</summary>
+Starting with checking the status I used the terminal to command git status:
 <img width="500px" src="AssignmentOne/Screenshots/git status.png">
 
 ##### Next step was to command git add .
@@ -45,6 +46,7 @@ with my local.
 
 ##### Next I used git push to push those changes to my remote GitHub:
 <img width="500px" src="AssignmentOne/Screenshots/push to main successful.png">
+</details>
 
 - I then learnt how to create branches so that I could work seperately from the main file:
 
