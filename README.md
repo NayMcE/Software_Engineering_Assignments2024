@@ -34,9 +34,9 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 with my local. 
  - Once creating some content I need to push this to GitHub. Starting with checking the
 status I used the terminal to command git status:
-<img width="200px" src="AssignmentOne/Screenshots/git status.png">
+<img width="500px" src="AssignmentOne/Screenshots/git status.png">
  - Next step was to command git add .
-<img width="200px" src="AssignmentOne/Screenshots/using git add.png">
+<img width="500px" src="AssignmentOne/Screenshots/using git add.png">
  
  - I created a requirements.txt file by using Tools, Sync Python Requests and creating
 a requirements.txt file which will list all packages or libraries needed to work on
