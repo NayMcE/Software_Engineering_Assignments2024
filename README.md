@@ -7,11 +7,9 @@
 
 <img align="left" width="100" height="100" padding="10px" src="/AssignmentOne/Images/linkedin pic.jpg">
 
-Hi I'm Naomi :wave: I have always been someone who loves to learn 
-new skills. Whether it's learning new skills with media 
-design such as animation or motion graphics or discovering
-new ways to keep fit with sports and nutrition. I always
-look for new ways to improve and grow.
+Hi I'm Naomi :wave: I love to learn 
+new skills. whether that's in video editing, motion graphics or coding skills. I'm always
+looking for new ways to improve and learn.
 
 I began my coding journey about 7 years ago when I started 
 playing around with [Codecademy](https://www.codecademy.com/) for fun. 
@@ -31,10 +29,17 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 
 
 
-### Steps I took to complete this assignment:
- - Created my GitHub account and started a new repository called CFG-Assignments.
- - Added an Images folder to add any of the images I would like to add to the file. 
- - I dragged and dropped the images as I went along to include in the file. 
- - I created a requirements.txt file by using Tools, Sync Python Requests.
+### Getting to know GitHub:
+ - After creating my GitHub account I started in PyCharm to link my remote repository
+with my local. 
+ - Once creating some content I need to push this to GitHub. Starting with checking the
+status I used the terminal to command git status:
+<img width="200px" src="AssignmentOne/Screenshots/git status.png">
+ - Next step was to command git add .
+<img width="200px" src="AssignmentOne/Screenshots/using git add.png">
+ 
+ - I created a requirements.txt file by using Tools, Sync Python Requests and creating
+a requirements.txt file which will list all packages or libraries needed to work on
+anything for this project. Mine is currently blank. 
 
 Check out my [LinkedIn Page](https://www.linkedin.com/in/naomi-mcewan-90900396/)
