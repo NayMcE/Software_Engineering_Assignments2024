@@ -53,7 +53,9 @@ with my local.
 
 - Here are the steps I took to create a pull request to merge my newly created branch with the main branch:
 
-##### 
+##### In GitHub I clicked on Pull Request and then New Pull Request, checking at this stage that the correct branches are selected to merge into main.
+
+<img width="500px" src="AssignmentOne/Screenshots/create new pull request.png">
 
 ##### I created a requirements.txt file:
 - Using Tools, Sync Python Requests and creating
