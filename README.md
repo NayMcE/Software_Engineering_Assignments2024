@@ -30,8 +30,19 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 
 
 ### Getting to know GitHub:
-#### After creating my GitHub account I started in PyCharm to link my remote repository with my local. 
 
+<details>
+<summary>Creating my Repository on GitHub</summary>
+- After creating my GitHub account I began by creating my repository ensuring to add
+a readme and a gitignore file.
+
+<img width="500px" src="AssignmentOne/Screenshots/readme file.png">
+
+<img width="500px" src="AssignmentOne/Screenshots/gitignore.png">
+
+- I then opened my PyCharm to link my remote repository with my local. 
+
+</details>
 
 <details>
 <summary>Pushing to GitHub</summary>
@@ -68,7 +79,19 @@ main branch in PyCharm and selecting "New Branch from 'main'", then naming the f
 
 - In GitHub I clicked on Pull Request and then New Pull Request, checking at this stage that the correct branches are selected to merge into main.
 
-<img width="500px" src="AssignmentOne/Screenshots/create new pull request.png">
+<img width="500px" src="AssignmentOne/Screenshots/Create new pull request.png">
+
+- Checking that the brances are ok to merge then clicking on Create Pull Request:
+
+<img width="500px" src="AssignmentOne/Screenshots/ok to merge.png">
+
+- I didn't need to check with anyone reviewing the work so was ok to go ahead and 
+continue to pull request.
+
+<img width="500px" src="AssignmentOne/Screenshots/merge successful.png">
+
+<img width="500px" src="AssignmentOne/Screenshots/merge complete.png">
+
 </details>
 
 <details>
@@ -77,5 +100,7 @@ main branch in PyCharm and selecting "New Branch from 'main'", then naming the f
 - Using Tools, Sync Python Requests and creating a requirements.txt file which will list 
 all packages or libraries needed to work on anything for this project. Mine is currently blank. 
 </details>
+
+
 
 Check out my [LinkedIn Page](https://www.linkedin.com/in/naomi-mcewan-90900396/)
