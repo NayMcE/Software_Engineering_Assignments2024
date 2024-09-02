@@ -5,7 +5,7 @@
 ### About Me
 
 
-<img align="left" width="100" height="100" padding="10px" src="/AssignmentOne/Images/linkedin pic.jpg">
+<img align="left" width="100" height="100" src="/AssignmentOne/Images/linkedin pic.jpg">
 
 Hi I'm Naomi :wave: I love to learn 
 new skills. whether that's in video editing, motion graphics or coding skills. I'm always
@@ -30,35 +30,102 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 
 
 ### Getting to know GitHub:
- - After creating my GitHub account I started in PyCharm to link my remote repository
-with my local. 
- - Once creating some content I needed to push this to GitHub and these are the steps I took:
 
-##### Starting with checking the status I used the terminal to command git status:
+<details>
+<summary>My Local and Remote Repository</summary>
+
+- After creating my GitHub account I began by creating my repository ensuring to add
+a readme and a gitignore file. (The gitignore file is not tracked by Git. In my
+case I created a Pyton gitignore so Git will not track these files or add them
+to the staging area)
+
+<img width="500px" src="AssignmentOne/Screenshots/readme file.png">
+
+<img width="500px" src="AssignmentOne/Screenshots/gitignore.png">
+
+- I then opened my PyCharm to link my remote repository with my local. First clicking
+on "Get from VCS":
+
+<img width="500px" src="AssignmentOne/Screenshots/get from VCS.png">
+
+- Then choosing GitHub from the left hand options and choosing the correct repo:
+
+<img width="500px" src="AssignmentOne/Screenshots/choosing GitHub.png">
+
+</details>
+
+<details>
+<summary>Pushing to GitHub</summary>
+
+- Starting with checking the status I used the terminal to command git status:
+
 <img width="500px" src="AssignmentOne/Screenshots/git status.png">
 
-##### Next step was to command git add .
+- Next step was to command git add .
+
 <img width="500px" src="AssignmentOne/Screenshots/using git add.png">
 
-##### Checking that the files are correct I then used git commit -m "" to commit these file changes: 
+- Checking that the files are correct I then used git commit -m "" to commit these file 
+changes using a clear and meaningful message: 
+
 <img width="500px" src="/AssignmentOne/Screenshots/git commit successful.png">
 
-##### Next I used git push to push those changes to my remote GitHub:
+- Next I used git push to push those changes to my remote GitHub:
+
 <img width="500px" src="AssignmentOne/Screenshots/push to main successful.png">
+</details>
 
-- I then learnt how to create branches so that I could work seperately from the main file:
+<details>
+<summary>Creating Branches</summary>
 
-##### I created a branch called "test-1" inside a "feature" folder by right clicking on the main branch in PyCharm and selecting "New Branch from 'main'".
+- I created a branch called "test-1" in a folder called "feature" by right clicking on the 
+main branch in PyCharm and selecting "New Branch from 'main'", then naming the file "feature/test-1".
+
 <img width="500px" src="/AssignmentOne/Screenshots/new branch created.png">
+</details>
 
-- Here are the steps I took to create a pull request to merge my newly created branch with the main branch:
+<details>
+<summary>Creating a Pull Request</summary>
 
-##### 
+- In GitHub I clicked on Pull Request and then New Pull Request, checking at this stage that the correct branches are selected to merge into main.
 
-##### I created a requirements.txt file:
-- Using Tools, Sync Python Requests and creating
-a requirements.txt file which will list all packages or libraries needed to work on
-anything for this project. Mine is currently blank. 
- - 
+<img width="500px" src="AssignmentOne/Screenshots/Create new pull request.png">
+
+- Checking that the brances are ok to merge then clicking on Create Pull Request:
+
+<img width="500px" src="AssignmentOne/Screenshots/ok to merge.png">
+
+- I didn't need to check with anyone reviewing the work so was ok to go ahead and 
+continue to pull request.
+
+<img width="500px" src="AssignmentOne/Screenshots/merge successful.png">
+
+<img width="500px" src="AssignmentOne/Screenshots/merge complete.png">
+
+</details>
+
+<details>
+<summary>Pull From Remote to Local</summary>
+
+- After my pull request I needed to update my local repo so that my main branch was
+also updated. I used the terminal to check out of my branch and return to main. 
+
+<img width="500px" src="AssignmentOne/Screenshots/git checkout main.png">
+
+- Then used the git pull command to update the local main branch.
+
+<img width="500px" src="AssignmentOne/Screenshots/git pull.png">
+
+<img width="500px" src="AssignmentOne/Screenshots/main local branch updated.png">
+
+</details>
+<details>
+<summary>Requirements.txt file</summary>
+
+- Using Tools, Sync Python Requests and creating a requirements.txt file which will list 
+all packages or libraries needed to work on anything for this project. Mine is currently blank. 
+</details>
+
+
 
 Check out my [LinkedIn Page](https://www.linkedin.com/in/naomi-mcewan-90900396/)
