@@ -32,7 +32,8 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 ### Getting to know GitHub:
 
 <details>
-<summary>Creating my Repository on GitHub</summary>
+<summary>My Local and Remote Repository</summary>
+
 - After creating my GitHub account I began by creating my repository ensuring to add
 a readme and a gitignore file.
 
@@ -40,7 +41,14 @@ a readme and a gitignore file.
 
 <img width="500px" src="AssignmentOne/Screenshots/gitignore.png">
 
-- I then opened my PyCharm to link my remote repository with my local. 
+- I then opened my PyCharm to link my remote repository with my local. First clicking
+on "Get from VCS":
+
+<img width="500px" src="AssignmentOne/Screenshots/get from VCS.png">
+
+- Then choosing GitHub from the left hand options and choosing the correct repo:
+
+<img width="500px" src="AssignmentOne/Screenshots/choosing GitHub.png">
 
 </details>
 
