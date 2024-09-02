@@ -35,7 +35,9 @@ course in Web Development** and now onto the **Software Engineering Degree** :sm
 <summary>My Local and Remote Repository</summary>
 
 - After creating my GitHub account I began by creating my repository ensuring to add
-a readme and a gitignore file.
+a readme and a gitignore file. (The gitignore file is not tracked by Git. In my
+case I created a Pyton gitignore so Git will not track these files or add them
+to the staging area)
 
 <img width="500px" src="AssignmentOne/Screenshots/readme file.png">
 
@@ -102,6 +104,21 @@ continue to pull request.
 
 </details>
 
+<details>
+<summary>Pull From Remote to Local</summary>
+
+- After my pull request I needed to update my local repo so that my main branch was
+also updated. I used the terminal to check out of my branch and return to main. 
+
+<img width="500px" src="AssignmentOne/Screenshots/git checkout main.png">
+
+- Then used the git pull command to update the local main branch.
+
+<img width="500px" src="AssignmentOne/Screenshots/git pull.png">
+
+<img width="500px" src="AssignmentOne/Screenshots/main local branch updated.png">
+
+</details>
 <details>
 <summary>Requirements.txt file</summary>
 
