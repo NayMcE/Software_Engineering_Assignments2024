@@ -5,7 +5,7 @@
 ### About Me
 
 
-<img align="left" width="100" height="100" padding="10px" src="/AssignmentOne/Images/linkedin pic.jpg">
+<img align="left" width="100" height="100" src="/AssignmentOne/Images/linkedin pic.jpg">
 
 Hi I'm Naomi :wave: I love to learn 
 new skills. whether that's in video editing, motion graphics or coding skills. I'm always
