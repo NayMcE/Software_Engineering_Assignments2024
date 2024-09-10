@@ -20,12 +20,3 @@ else:
 
 # get level input from user and create a new function that selects all questions with requested level.
 
-def level_selection():
-    if level == "easy":
-        #retrieve easy question set
-    elif level == "medium":
-        #retrieve medium question set
-    else:
-        #retrieve difficult question set
-
-#
