@@ -6,13 +6,6 @@
 
 import requests
 
-endpoint = "https://opentdb.com/api.php?amount=50"
-response = requests.get(endpoint)
-print("response is:", response)
-data = response.json()
-#print(data)
-
-
 #create a welcome message from the Knowledge Tester console app.
 print("Welcome! I'm your friendly Knowledge Tester")
 print("Let's begin today by choosing a level!")
@@ -21,17 +14,30 @@ print("Let's begin today by choosing a level!")
 level = input("Would you like your quiz to be easy, medium or hard?")
 #create conditionals for feedback depending on the user input and use query string parameters to choose set of questions.
 if level == "easy":
-    endpoint = "https://opentdb.com/api.php?amount=20&difficulty=easy"
+    endpoint = "https://opentdb.com/api.php?amount=5&difficulty=easy"
+    response = requests.get(endpoint)
+    data = response.json()
     print("OK great, let's keep it easy for today!")
+    print(f"Endpoint is: {endpoint}")
 elif level == "medium":
-    endpoint = "https://opentdb.com/api.php?amount=20&difficulty=medium"
+    endpoint = "https://opentdb.com/api.php?amount=5&difficulty=medium"
+    response = requests.get(endpoint)
+    data = response.json()
     print("Sounds good. Let's spice things up a bit!")
+    print(f"Endpoint is:{endpoint}")
 elif level == "hard":
-    endpoint = "https://opentdb.com/api.php?amount=20&difficulty=hard"
+    endpoint = "https://opentdb.com/api.php?amount=5&difficulty=hard"
+    response = requests.get(endpoint)
+    data = response.json()
     print("I like your style, you must be a knowledge wizz!")
+    print(f"Endpoint is:{endpoint}")
 else:
     print("You need to choose a level!")
-# get level input from user and create a new function that selects all questions with requested level.
 
-for question in data["results"]:
-    print(question["question"])
+
+
+
+
+
+
+
