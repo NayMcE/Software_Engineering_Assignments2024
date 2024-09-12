@@ -4,7 +4,7 @@ import random # module used to randomly shuffle the answer choices for the user
 
 # get a pool of trivia questions
 def get_question_pool():
-    url = f"https://opentdb.com/api.php?amount=10&category=11"
+    url = f"https://opentdb.com/api.php?amount=5&category=11"
     response = requests.get(url)
     response_json = response.json()
     return response_json["results"]
@@ -28,7 +28,6 @@ def get_user_choice():
         else:
             print("Invalid input. Enter the number of your choice.")
 
-
 # play the game
 # get question key from the list "results"
 def play_game():
@@ -51,11 +50,15 @@ def play_game():
             print(f"You're score is: {score}\n")
         else:
             print(f"Incorrect. The correct answer is: {correct_choice_text}\n")
+    print(f"You're final score is : {score}")
     return score
 
-score = play_game()
-print(f"You're final score is: {score}")
-
+#save the final score to a text file
+# def save_score_to_file():
+#     with open("final_score.txt", "write") as file:
+#         file.write(f"You're final score is: {get_final_score}")
+#     print("Your score has been saved to 'final_score.txt'.")
 
 #call the function
 play_game()
+
