@@ -50,14 +50,13 @@ def play_game():
             print(f"You're score is: {score}\n")
         else:
             print(f"Incorrect. The correct answer is: {correct_choice_text}\n")
-    print(f"You're final score is : {score}")
+    # retrieve the final score and print to console as well as write to txt file
+    final_score = score
+    print(f"You're final score is : {final_score}")
+    with open("C:\\Users\\naomi\\PycharmProjects\\CFG-Assignments\\AssignmentTwo\\final_score.txt", "w") as file:
+        file.write(f"You're final score is: {final_score}")
     return score
 
-#save the final score to a text file
-# def save_score_to_file():
-#     with open("final_score.txt", "write") as file:
-#         file.write(f"You're final score is: {get_final_score}")
-#     print("Your score has been saved to 'final_score.txt'.")
 
 #call the function
 play_game()
