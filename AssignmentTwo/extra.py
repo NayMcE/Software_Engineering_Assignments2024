@@ -3,24 +3,24 @@ import html
 import random
 
 # get a pool of trivia questions
-def get_question_pool() -> list:
+def get_question_pool():
     url = f"https://opentdb.com/api.php?amount=10&category=11"
     response = requests.get(url)
     response_json = response.json()
     return response_json["results"]
 
 # Shuffle the answer choices for question
-def shuffle_choices(choices: list) -> list:
+def shuffle_choices(choices: list):
     random.shuffle(choices)
     return choices
 
 # print answer choices in the console
-def print_choices(choices: list) -> None:
+def print_choices(choices: list):
     for choice_index, choice in enumerate(choices):
         print(f"{choice_index+1}. {html.unescape(choice)}")
 
 # get the users choice in the console
-def get_user_choice() -> int:
+def get_user_choice():
     while True:
         user_choice = int(input("Enter the number of your choice: "))
         if user_choice in range(1,5):
@@ -29,7 +29,7 @@ def get_user_choice() -> int:
             print("Invalid input. Enter the number of your choice.")
 
 # play the game
-def play_game() -> None:
+def play_game():
     question_pool = get_question_pool()
     for question in question_pool:
         question_text = html.unescape(question["question"])
@@ -47,5 +47,4 @@ def play_game() -> None:
             print(f"Incorrect. The correct answer is: {correct_choice_text}\n")
 
 #call the function
-if __name__ == "__main__":
-    play_game()
+play_game()

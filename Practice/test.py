@@ -1,8 +1,8 @@
-def recap(aNumber):
-    for num in range (aNumber + 1):
-        if num == 42:
-            print("Found the meaning of life")
-            return
-    print("Did not find 42")
+country_capitals = {
+  "Germany": "Berlin",
+  "Canada": "Ottawa",
+  "England": "London"
+}
 
-recap(50)
+print(country_capitals.keys())
+print(country_capitals.values())
