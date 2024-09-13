@@ -1,11 +1,11 @@
 You're final score is: 1
-Question1: In the 1994 movie "Speed", what is the minimum speed the bus must go to prevent to bomb from exploding?
+Question1: In the Mad Max franchise, what type of car is the ...
 You're answer was: False
-Question2: In what year was the first Transformers movie released?
+Question2: In the 1974 Christmas flick "The Year Without...
+You're answer was: False
+Question3: In the "Jurassic Park" universe, what is...
+You're answer was: False
+Question4: Where does the original Friday The 13th movie take...
+You're answer was: False
+Question5: Which of these movies did Jeff Bridges not star in...
 You're answer was: True
-Question3: In the 1999 movie Fight Club, which of these is not a rule of the "fight club"?
-You're answer was: False
-Question4: This movie contains the quote, "I love the smell of napalm in the morning!"
-You're answer was: False
-Question5: What was another suggested name for, the 1985 film, Back to the Future?
-You're answer was: False

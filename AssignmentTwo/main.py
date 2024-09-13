@@ -1,7 +1,7 @@
 import requests # import the trivia api endpoint url in the get_question_pool function
 import html # import to remove the ascii characters from the question and answer text
 import random # module used to randomly shuffle the answer choices for the user
-import pprint
+
 
 # get a pool of trivia questions from the trivia API
 def get_question_pool():
@@ -64,7 +64,7 @@ def play_game():
     with open("C:\\Users\\naomi\\PycharmProjects\\CFG-Assignments\\AssignmentTwo\\final_score.txt", "w") as file:
         file.write(f"You're final score is: {final_score}\n")
         for i, result in enumerate(results):
-            file.write(html.unescape(f"Question{i + 1}: {result["question"]}\n"))
+            file.write(html.unescape(f"Question{i + 1}: {result["question"][:50]}...\n"))
             file.write(html.unescape(f"You're answer was: {result["correct"]}\n"))
     return score
 
