@@ -1,8 +1,9 @@
 import requests # import the trivia api endpoint url in the get_question_pool function
 import html # import to remove the ascii characters from the question and answer text
 import random # module used to randomly shuffle the answer choices for the user
+import pprint
 
-# get a pool of trivia questions
+# get a pool of trivia questions from the trivia API
 def get_question_pool():
     url = f"https://opentdb.com/api.php?amount=5&category=11"
     response = requests.get(url)
@@ -33,10 +34,10 @@ def get_user_choice():
 def play_game():
     question_pool = get_question_pool()
     score = 0
+    results = []
     for question in question_pool:
         question_text = html.unescape(question["question"])
         print(question_text)
- # choices list from shuffle_choices requests keys
         choices = question["incorrect_answers"]
         choices.extend([question["correct_answer"]])
         shuffled_choices = shuffle_choices(choices)
@@ -48,15 +49,24 @@ def play_game():
             print(f"Correct! You answered: {correct_choice_text}\n")
             score += 1
             print(f"You're score is: {score}\n")
+            correct = True
         else:
             print(f"Incorrect. The correct answer is: {correct_choice_text}\n")
+            correct = False
+    # append result of the current question to the results variable list
+        results.append({
+            "question": question["question"],
+            "correct": correct
+            })
     # retrieve the final score and print to console as well as write to txt file
     final_score = score
     print(f"You're final score is : {final_score}")
     with open("C:\\Users\\naomi\\PycharmProjects\\CFG-Assignments\\AssignmentTwo\\final_score.txt", "w") as file:
-        file.write(f"You're final score is: {final_score}")
+        file.write(f"You're final score is: {final_score}\n")
+        for i, result in enumerate(results):
+            file.write(html.unescape(f"Question{i + 1}: {result["question"]}\n"))
+            file.write(html.unescape(f"You're answer was: {result["correct"]}\n"))
     return score
-
 
 #call the function
 play_game()

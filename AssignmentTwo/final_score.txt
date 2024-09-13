@@ -1,1 +1,11 @@
 You're final score is: 1
+Question1: In the 1994 movie "Speed", what is the minimum speed the bus must go to prevent to bomb from exploding?
+You're answer was: False
+Question2: In what year was the first Transformers movie released?
+You're answer was: True
+Question3: In the 1999 movie Fight Club, which of these is not a rule of the "fight club"?
+You're answer was: False
+Question4: This movie contains the quote, "I love the smell of napalm in the morning!"
+You're answer was: False
+Question5: What was another suggested name for, the 1985 film, Back to the Future?
+You're answer was: False
