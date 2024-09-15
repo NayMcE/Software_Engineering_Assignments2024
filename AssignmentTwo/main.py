@@ -30,7 +30,9 @@ def get_user_choice():
             print("Invalid input. Enter the number of your choice.")
 
 # play the game
-print("Hello and welcome to your friendly General Knowledge Tester! Come back each day and see if you can get a higher score!")
+print("Hello and welcome to your friendly General Knowledge Tester! Come back each day and see if you can get a higher score!\n"
+      "Your results will also be saved to an external file for you to review your answers and see where you went wrong! \n"
+      "Save the file for future reference and keep practicing! You'll be a general knowledge master in no time!")
 input("Press enter to start playing!\n")
 # get question key from the list "results"
 def play_game():
