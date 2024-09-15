@@ -64,7 +64,7 @@ def play_game():
             })
     # retrieve the final score and print to console as well as write to txt file
     final_score = score
-    print(f"You're final score is : {final_score}")
+    print(f"You're final score is : {final_score}! Your results have been saved on the final_score text file!)")
     with open("C:\\Users\\naomi\\PycharmProjects\\CFG-Assignments\\AssignmentTwo\\final_score.txt", "w") as file:
         file.write(f"You're final score is: {final_score}\n")
         for i, result in enumerate(results):
