@@ -4,8 +4,8 @@ import random # module used to randomly shuffle the answer choices for the user
 
 
 # get a pool of trivia questions from the trivia API
-def get_question_pool():
-    url = f"https://opentdb.com/api.php?amount=5&category=11"
+def get_question_pool(amount=5, difficulty="easy"):
+    url = f"https://opentdb.com/api.php?amount={amount}&category=9&difficulty={difficulty}"
     response = requests.get(url)
     response_json = response.json()
     return response_json["results"]
@@ -30,9 +30,13 @@ def get_user_choice():
             print("Invalid input. Enter the number of your choice.")
 
 # play the game
+print("Hello and welcome to your friendly General Knowledge Tester! Come back each day and see if you can get a higher score!")
+input("Press enter to start playing!\n")
 # get question key from the list "results"
 def play_game():
-    question_pool = get_question_pool()
+    question_number = int(input("How many questions would you like to answer? "))
+    question_difficulty = input("What level would you like to choose: Easy, medium or hard? ").lower()
+    question_pool = get_question_pool(amount = question_number,difficulty = question_difficulty )
     score = 0
     results = []
     for question in question_pool:
