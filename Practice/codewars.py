@@ -9,8 +9,11 @@
 # Note:
 # Your points are not included in the array of your class's points. Do not forget them when calculating the average score!
 
-def better_tan_average(class_points, your_points):
-    class_points = [12,15,15,10,12,18,20]
-    average_class_points = sum(class_points) / len(class_points)
-    return average_class_points
-    your_points =
+def square_sum(*number):
+    ttl = 0
+    for num in number:
+        ttl += num**0.5
+    return int(ttl)
+
+print(square_sum(1,2,2))
+
