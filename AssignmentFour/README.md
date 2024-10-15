@@ -14,8 +14,9 @@ ones they would prefer not to have as a set meal.
 
 * First copy the "nutrition_db.sql" script to create the database
 * Enter your username and password into the config file. 
-* Run the "db_utils" file to check the database connection is running correctly.
-* Then run the "app" file to connect to Flask 
-* Finally run the "main" file and follow the instructions to view all your recipes or view them by meal type. From there you can delete any recipe by id if you don't like the look of it. 
+* Run the "db_utils" file to check the database connection is running correctly. You will need to import mysql.connector from this file.
+* Then run the "app" file to connect to Flask, you will need to import Flask from this file.
+* Navigate to the "main" file where you will need to import requests before running the file.
+* Finally run the "main" file and follow the instructions. You will have a choice as to viewing all your recipes or viewing them by meal type. From there you can delete any recipe by id if you don't like the look of it. It will then return to you your new recipe collection with the deleted recipe removed.
 
 Hope you enjoy.
